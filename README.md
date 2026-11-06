@@ -4,9 +4,11 @@
 
 ## About the Project
 
-This project focuses on analyzing urban traffic data to understand traffic volume, congestion, road capacity, speed, and other factors related to mobility.
+This project focuses on analyzing urban traffic data to understand traffic volume, congestion, road capacity, speed, and other factors related to urban mobility.
 
-I used Python and data analysis techniques to clean and explore the data, identify high-congestion areas and bottlenecks, study relationships between traffic factors, and build an interactive dashboard.
+Using Python and data analysis techniques, I cleaned and explored the dataset, identified high-congestion areas and bottlenecks, studied relationships between traffic factors, and developed an interactive dashboard using Streamlit.
+
+The project aims to transform raw traffic data into meaningful insights that can support better traffic management and mobility optimization.
 
 ## Project Objectives
 
@@ -39,7 +41,10 @@ The dataset includes traffic volume, average speed, travel time index, congestio
 - Seaborn
 - Plotly
 - ipywidgets
+- Streamlit
 - Jupyter Notebook
+- Git
+- GitHub
 
 ## Project Work
 
@@ -55,6 +60,8 @@ The main steps completed in this project were:
 8. Performed a 15% traffic-volume reduction scenario.
 9. Built an interactive traffic dashboard.
 10. Prepared recommendations based on the analysis.
+11. Developed a Streamlit application to present traffic insights interactively.
+12. Used Git and GitHub for version control and project management.
 
 ## Key Findings
 
@@ -69,18 +76,18 @@ The main steps completed in this project were:
 
 ## Scenario Analysis
 
-I also tested a simple scenario where traffic volume was reduced by **15%**.
+I tested a simple scenario where traffic volume was reduced by **15%**.
 
 In this scenario:
 
 - Average traffic volume reduced from about **29,236 to 24,851 vehicles**.
 - Estimated congestion reduced from about **80.82% to 70.67%**.
 
-This is an analytical estimate based on the historical data and should not be considered a guaranteed real-world result.
+This is an analytical estimate based on historical data and should not be considered a guaranteed real-world result.
 
 ## Interactive Dashboard
 
-I built an interactive **Urban Traffic Mobility Dashboard** using Python, Plotly, and ipywidgets.
+I developed an interactive **Urban Traffic Mobility Dashboard** using Python, Plotly, and Streamlit.
 
 The dashboard allows users to filter the analysis by:
 
@@ -99,14 +106,19 @@ It displays:
 - Top high-risk roads/intersections
 - Traffic reliability
 
+The dashboard provides a visual overview of traffic conditions and helps users explore traffic patterns across different areas and years.
+
 ## Project Structure
 
 ```text
 Urban Traffic Analytics/
 │
+├── app.py
+│
 ├── data/
 │   ├── raw/
 │   └── processed/
+│       └── Bangalore_traffic_processed.csv
 │
 ├── notebooks/
 │   └── analysis.ipynb
@@ -121,17 +133,21 @@ Urban Traffic Analytics/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ## Project Deliverables
 
 - Jupyter Notebook containing the analysis
 - Cleaned and enriched traffic dataset
-- Interactive traffic dashboard
+- Interactive Streamlit traffic dashboard
 - Traffic Performance & Optimization Report
 - Charts and analysis outputs
+- GitHub repository containing the project files
 
 ## Conclusion
 
 This project helped me understand how Python and data analysis can be used to study a real-world problem such as urban traffic.
 
 The analysis identified areas with high congestion and capacity pressure and highlighted practical improvement areas such as traffic signal coordination, bottleneck management, public transport support, demand management, and data-driven traffic monitoring.
+
+The interactive dashboard makes it easier to explore traffic KPIs, trends, and high-risk locations, supporting data-driven decision-making for urban mobility optimization.
